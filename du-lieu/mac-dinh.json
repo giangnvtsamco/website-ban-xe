@@ -1,0 +1,1094 @@
+{
+ "xe": [
+  {
+   "id": "vf2",
+   "ten": "VF 2",
+   "loi": "Nhỏ gọn, tự do",
+   "loiEn": "Compact and free",
+   "nut": "#7f9c74",
+   "chu": "#fff",
+   "anh": "vf2/xanh-mint",
+   "pb": [
+    [
+     "VF 2",
+     188000000,
+     null,
+     3
+    ]
+   ],
+   "phi": true,
+   "sac": "Miễn phí sạc V-Green đến 10/02/2029, theo điều kiện chương trình",
+   "sacEn": "Free V-Green charging until 10/02/2029, conditions apply",
+   "bh": [
+    5,
+    130,
+    7,
+    160
+   ],
+   "laiThu": false,
+   "duong": "vf2",
+   "tnds": 520700,
+   "tile": 1.55
+  },
+  {
+   "id": "vf3",
+   "ten": "VF 3",
+   "loi": "Sáng tạo chất riêng",
+   "loiEn": "Creative, uniquely yours",
+   "nut": "#e9c94f",
+   "chu": "#111",
+   "anh": "vf3/vang",
+   "pb": [
+    [
+     "Eco",
+     285000000,
+     null,
+     3
+    ],
+    [
+     "Plus",
+     296000000,
+     null,
+     3
+    ]
+   ],
+   "phi": true,
+   "sac": "Miễn phí sạc V-Green đến 10/02/2029, theo điều kiện chương trình",
+   "sacEn": "Free V-Green charging until 10/02/2029, conditions apply",
+   "bh": [
+    7,
+    160,
+    8,
+    160
+   ],
+   "laiThu": true,
+   "duong": "vf3",
+   "tnds": 520700,
+   "tile": 1.55
+  },
+  {
+   "id": "vf5",
+   "ten": "VF 5",
+   "loi": "Xe xanh phong cách",
+   "loiEn": "Green with style",
+   "nut": "#6d7178",
+   "chu": "#fff",
+   "anh": "vf5/xam",
+   "pb": [
+    [
+     "Plus",
+     496000000,
+     null,
+     9
+    ]
+   ],
+   "phi": true,
+   "sac": "Miễn phí sạc V-Green đến 10/02/2029, theo điều kiện chương trình",
+   "sacEn": "Free V-Green charging until 10/02/2029, conditions apply",
+   "bh": [
+    7,
+    160,
+    8,
+    160
+   ],
+   "laiThu": true,
+   "duong": "vf5",
+   "tnds": 530700,
+   "tile": 1.25
+  },
+  {
+   "id": "vf6",
+   "ten": "VF 6",
+   "loi": "Lái sang sống nhàn",
+   "loiEn": "Drive in luxury, live at ease",
+   "nut": "#8e1f32",
+   "chu": "#fff",
+   "anh": "vf6/do",
+   "pb": [
+    [
+     "Eco",
+     646000000,
+     null,
+     9
+    ],
+    [
+     "Plus",
+     699000000,
+     null,
+     9
+    ]
+   ],
+   "phi": true,
+   "sac": "Miễn phí sạc V-Green đến 10/02/2029, theo điều kiện chương trình",
+   "sacEn": "Free V-Green charging until 10/02/2029, conditions apply",
+   "bh": [
+    7,
+    160,
+    8,
+    160
+   ],
+   "laiThu": true,
+   "duong": "vf6",
+   "tnds": 530700,
+   "tile": 1
+  },
+  {
+   "id": "vf7",
+   "ten": "VF 7",
+   "loi": "Sành điệu đột phá",
+   "loiEn": "Stylish and groundbreaking",
+   "nut": "#55603f",
+   "chu": "#fff",
+   "anh": "vf7/xanh-mint",
+   "pb": [
+    [
+     "Eco",
+     740000000,
+     null,
+     9
+    ],
+    [
+     "Plus 1 cầu",
+     830000000,
+     null,
+     9,
+     "Plus single motor"
+    ],
+    [
+     "TC3",
+     920000000,
+     null,
+     9
+    ]
+   ],
+   "phi": true,
+   "sac": "Miễn phí sạc V-Green đến 10/02/2029, theo điều kiện chương trình",
+   "sacEn": "Free V-Green charging until 10/02/2029, conditions apply",
+   "bh": [
+    7,
+    160,
+    8,
+    160
+   ],
+   "laiThu": true,
+   "duong": "vf7",
+   "tnds": 530700,
+   "tile": 1
+  },
+  {
+   "id": "vf8",
+   "ten": "VF 8",
+   "loi": "Sự lựa chọn của người thành đạt",
+   "loiEn": "The choice of achievers",
+   "nut": "#12463a",
+   "chu": "#fff",
+   "anh": "vf8moi/do",
+   "pb": [
+    [
+     "Thế hệ mới",
+     899000000,
+     "vf8moi",
+     5,
+     "All New"
+    ],
+    [
+     "Plus",
+     1079000000,
+     null,
+     9
+    ]
+   ],
+   "phi": true,
+   "sac": "Miễn phí sạc V-Green đến 10/02/2029, theo điều kiện chương trình",
+   "sacEn": "Free V-Green charging until 10/02/2029, conditions apply",
+   "bhPb": {
+    "Thế hệ mới": [
+     7,
+     160,
+     8,
+     160
+    ],
+    "Plus": [
+     10,
+     200,
+     10,
+     200
+    ]
+   },
+   "laiThu": true,
+   "duong": "vf8",
+   "tnds": 530700,
+   "tile": 1
+  },
+  {
+   "id": "vf9",
+   "ten": "VF 9",
+   "loi": "Xanh thượng lưu",
+   "loiEn": "Green luxury",
+   "nut": "#4f5155",
+   "chu": "#fff",
+   "anh": "vf9/zenith-grey",
+   "pb": [
+    [
+     "Eco",
+     1348000000,
+     null,
+     0
+    ],
+    [
+     "Plus",
+     1529000000,
+     null,
+     5
+    ]
+   ],
+   "phi": true,
+   "sac": "Miễn phí sạc V-Green đến 10/02/2029, theo điều kiện chương trình",
+   "sacEn": "Free V-Green charging until 10/02/2029, conditions apply",
+   "bh": [
+    10,
+    200,
+    10,
+    200
+   ],
+   "laiThu": true,
+   "duong": "vf9",
+   "tnds": 841600,
+   "tile": 1
+  },
+  {
+   "id": "limo",
+   "ten": "Limo Green",
+   "loi": "Rộng rãi, tối ưu dịch vụ",
+   "loiEn": "Spacious, built for service",
+   "nut": "#2f7d4f",
+   "chu": "#fff",
+   "anh": "limo/infinity-blanc",
+   "pb": [
+    [
+     "Limo Green",
+     699000000,
+     null,
+     9
+    ]
+   ],
+   "phi": true,
+   "sac": "Miễn phí sạc V-Green đến 10/02/2029, theo điều kiện chương trình",
+   "sacEn": "Free V-Green charging until 10/02/2029, conditions apply",
+   "laiThu": false,
+   "duong": "limo-green",
+   "tnds": 943400,
+   "tile": 1
+  },
+  {
+   "id": "mpv7",
+   "ten": "MPV 7",
+   "loi": "Trọn vẹn cho gia đình",
+   "loiEn": "Made for the whole family",
+   "nut": "#1f3f6e",
+   "chu": "#fff",
+   "anh": "mpv7/xanh-duong",
+   "pb": [
+    [
+     "VF MPV 7",
+     750000000,
+     null,
+     9
+    ]
+   ],
+   "phi": true,
+   "sac": "Miễn phí sạc V-Green đến 10/02/2029, theo điều kiện chương trình",
+   "sacEn": "Free V-Green charging until 10/02/2029, conditions apply",
+   "laiThu": true,
+   "duong": "mpv7",
+   "tnds": 943400,
+   "tile": 1
+  },
+  {
+   "id": "ecvan",
+   "ten": "EC Van",
+   "loi": "Chở hàng xanh đô thị",
+   "loiEn": "Green urban cargo",
+   "nut": "#6f9160",
+   "chu": "#fff",
+   "anh": "ecvan/xanh-mint",
+   "pb": [
+    [
+     "Tiêu chuẩn",
+     248000000,
+     null,
+     5,
+     "Standard"
+    ],
+    [
+     "Nâng cao",
+     286000000,
+     null,
+     5,
+     "Advanced"
+    ],
+    [
+     "Cửa trượt",
+     306000000,
+     null,
+     5,
+     "Sliding door"
+    ]
+   ],
+   "phi": true,
+   "sac": "Miễn phí sạc V-Green đến 10/02/2029, theo điều kiện chương trình",
+   "sacEn": "Free V-Green charging until 10/02/2029, conditions apply",
+   "thuongMai": true,
+   "bh": [
+    5,
+    130,
+    7,
+    160
+   ],
+   "traMin": 24,
+   "laiThu": true,
+   "duong": "ec-van",
+   "tnds": 500700,
+   "tile": 1.5
+  },
+  {
+   "id": "minio",
+   "ten": "Minio Green",
+   "loi": "Gọn nhẹ, tối ưu dịch vụ",
+   "loiEn": "Compact, built for service",
+   "nut": "#7fae7a",
+   "chu": "#fff",
+   "anh": "minio/xanh-mint",
+   "pb": [
+    [
+     "Minio Green",
+     188000000,
+     null,
+     0
+    ]
+   ],
+   "phi": true,
+   "sac": "Miễn phí sạc V-Green đến 10/02/2029, theo điều kiện chương trình",
+   "sacEn": "Free V-Green charging until 10/02/2029, conditions apply",
+   "laiThu": true,
+   "duong": "minio-green",
+   "tnds": 520700,
+   "tile": 1.55
+  },
+  {
+   "id": "wild",
+   "ten": "VF Wild",
+   "loi": "Bán tải điện mở rộng phạm vi",
+   "loiEn": "Range-extended electric pickup",
+   "nut": "#3f4a5a",
+   "chu": "#fff",
+   "anh": "wild/xam",
+   "pb": [
+    [
+     "VF Wild",
+     860000000,
+     null,
+     0
+    ]
+   ],
+   "phi": false,
+   "sac": "Thuần điện trên 250 km, kết hợp xăng và điện tới 1.000 km",
+   "sacEn": "Over 250 km on electric, up to 1,000 km with range extender",
+   "hangTxt": "Tải trọng thùng 750 kg",
+   "hangEn": "750 kg bed payload",
+   "laiThu": false,
+   "duong": "vf-wild",
+   "tnds": 0,
+   "tile": 0
+  }
+ ],
+ "mau": {
+  "vf2": {
+   "l": 3090,
+   "ds": [
+    {
+     "k": "xanh-mint",
+     "ten": "Xanh mint",
+     "hex": "#7d9a6e",
+     "noc": null,
+     "f": 0.917
+    },
+    {
+     "k": "be",
+     "ten": "Be",
+     "hex": "#d8c19a",
+     "noc": null,
+     "f": 0.917
+    },
+    {
+     "k": "hong",
+     "ten": "Hồng",
+     "hex": "#e3a0b8",
+     "noc": null,
+     "f": 0.917
+    },
+    {
+     "k": "trang",
+     "ten": "Trắng",
+     "hex": "#f2f3f5",
+     "noc": null,
+     "f": 0.917
+    },
+    {
+     "k": "vang",
+     "ten": "Vàng",
+     "hex": "#f0d050",
+     "noc": null,
+     "f": 0.917
+    },
+    {
+     "k": "xanh-duong",
+     "ten": "Xanh dương",
+     "hex": "#4ea6d6",
+     "noc": null,
+     "f": 0.917
+    },
+    {
+     "k": "xam",
+     "ten": "Xám",
+     "hex": "#7b8087",
+     "noc": null,
+     "f": 0.917
+    },
+    {
+     "k": "do",
+     "ten": "Đỏ",
+     "hex": "#b3202c",
+     "noc": null,
+     "f": 0.917
+    }
+   ]
+  },
+  "minio": {
+   "l": 3090,
+   "ds": [
+    {
+     "k": "xanh-mint",
+     "ten": "Xanh mint",
+     "hex": "#86c07e",
+     "noc": null,
+     "f": 0.766
+    },
+    {
+     "k": "hong",
+     "ten": "Hồng",
+     "hex": "#e3a0b8",
+     "noc": null,
+     "f": 0.766
+    },
+    {
+     "k": "trang",
+     "ten": "Trắng",
+     "hex": "#f2f3f5",
+     "noc": null,
+     "f": 0.996
+    },
+    {
+     "k": "den",
+     "ten": "Đen",
+     "hex": "#16181b",
+     "noc": null,
+     "f": 0.865
+    },
+    {
+     "k": "do",
+     "ten": "Đỏ",
+     "hex": "#b3202c",
+     "noc": null,
+     "f": 0.864
+    },
+    {
+     "k": "trang-noc-den",
+     "ten": "Trắng nóc đen",
+     "hex": "#f2f3f5",
+     "noc": "#16181b",
+     "f": 0.997
+    },
+    {
+     "k": "tim-noc-trang",
+     "ten": "Tím nóc trắng",
+     "hex": "#b264cf",
+     "noc": "#f2f3f5",
+     "f": 0.766
+    },
+    {
+     "k": "tim-noc-xanh-duong",
+     "ten": "Tím nóc xanh dương",
+     "hex": "#b264cf",
+     "noc": "#4ea6d6",
+     "f": 0.766
+    },
+    {
+     "k": "xanh-mint-noc-trang",
+     "ten": "Xanh mint nóc trắng",
+     "hex": "#86c07e",
+     "noc": "#f2f3f5",
+     "f": 0.766
+    },
+    {
+     "k": "xanh-mint-noc-vang",
+     "ten": "Xanh mint nóc vàng",
+     "hex": "#86c07e",
+     "noc": "#f0d050",
+     "f": 0.766
+    },
+    {
+     "k": "den-noc-vang",
+     "ten": "Đen nóc vàng",
+     "hex": "#16181b",
+     "noc": "#f0d050",
+     "f": 0.864
+    },
+    {
+     "k": "do-noc-trang",
+     "ten": "Đỏ nóc trắng",
+     "hex": "#b3202c",
+     "noc": "#f2f3f5",
+     "f": 0.786
+    }
+   ]
+  },
+  "vf3": {
+   "l": 3190,
+   "ds": [
+    {
+     "k": "vang",
+     "ten": "Vàng",
+     "hex": "#f0d050",
+     "noc": null,
+     "f": 0.687
+    },
+    {
+     "k": "hong",
+     "ten": "Hồng",
+     "hex": "#e3a0b8",
+     "noc": null,
+     "f": 0.695
+    },
+    {
+     "k": "trang",
+     "ten": "Trắng",
+     "hex": "#f2f3f5",
+     "noc": null,
+     "f": 0.687
+    },
+    {
+     "k": "xanh-duong",
+     "ten": "Xanh dương",
+     "hex": "#4ea6d6",
+     "noc": null,
+     "f": 0.665
+    },
+    {
+     "k": "xanh-urban",
+     "ten": "Xanh mint",
+     "hex": "#8b9a7e",
+     "noc": null,
+     "f": 0.686
+    },
+    {
+     "k": "xam",
+     "ten": "Xám",
+     "hex": "#7b8087",
+     "noc": null,
+     "f": 0.677
+    },
+    {
+     "k": "do",
+     "ten": "Đỏ",
+     "hex": "#b3202c",
+     "noc": null,
+     "f": 0.665
+    }
+   ]
+  },
+  "ecvan": {
+   "l": 3767,
+   "ds": [
+    {
+     "k": "xanh-mint",
+     "ten": "Xanh mint",
+     "hex": "#7d9a6e",
+     "noc": null,
+     "f": 0.79
+    },
+    {
+     "k": "trang",
+     "ten": "Trắng",
+     "hex": "#f2f3f5",
+     "noc": null,
+     "f": 0.79
+    },
+    {
+     "k": "vang",
+     "ten": "Vàng",
+     "hex": "#f0d050",
+     "noc": null,
+     "f": 0.79
+    },
+    {
+     "k": "do",
+     "ten": "Đỏ",
+     "hex": "#b8432f",
+     "noc": null,
+     "f": 0.79
+    }
+   ]
+  },
+  "vf5": {
+   "l": 3967,
+   "ds": [
+    {
+     "k": "xam",
+     "ten": "Xám",
+     "hex": "#7b8087",
+     "noc": null,
+     "f": 0.847
+    },
+    {
+     "k": "trang",
+     "ten": "Trắng",
+     "hex": "#f2f3f5",
+     "noc": null,
+     "f": 0.847
+    },
+    {
+     "k": "vang",
+     "ten": "Vàng",
+     "hex": "#f0d050",
+     "noc": null,
+     "f": 0.847
+    },
+    {
+     "k": "xanh-duong",
+     "ten": "Xanh dương",
+     "hex": "#4ea6d6",
+     "noc": null,
+     "f": 0.847
+    },
+    {
+     "k": "xanh-urban",
+     "ten": "Xanh mint",
+     "hex": "#8b9a7e",
+     "noc": null,
+     "f": 0.847
+    },
+    {
+     "k": "do",
+     "ten": "Đỏ",
+     "hex": "#b3202c",
+     "noc": null,
+     "f": 0.847
+    }
+   ]
+  },
+  "vf6": {
+   "l": 4241,
+   "ds": [
+    {
+     "k": "do",
+     "ten": "Đỏ",
+     "hex": "#b3202c",
+     "noc": null,
+     "f": 0.978
+    },
+    {
+     "k": "trang",
+     "ten": "Trắng",
+     "hex": "#f2f3f5",
+     "noc": null,
+     "f": 0.973
+    },
+    {
+     "k": "xanh-mint",
+     "ten": "Xanh mint",
+     "hex": "#7d9a6e",
+     "noc": null,
+     "f": 0.975
+    },
+    {
+     "k": "bac",
+     "ten": "Xám",
+     "hex": "#5d6773",
+     "noc": null,
+     "f": 0.978
+    },
+    {
+     "k": "den",
+     "ten": "Đen",
+     "hex": "#16181b",
+     "noc": null,
+     "f": 0.981
+    }
+   ]
+  },
+  "vf7": {
+   "l": 4545,
+   "ds": [
+    {
+     "k": "xanh-mint",
+     "ten": "Xanh mint",
+     "hex": "#7d9a6e",
+     "noc": null,
+     "f": 0.879
+    },
+    {
+     "k": "trang",
+     "ten": "Trắng",
+     "hex": "#f2f3f5",
+     "noc": null,
+     "f": 0.88
+    },
+    {
+     "k": "xam",
+     "ten": "Xám",
+     "hex": "#7b8087",
+     "noc": null,
+     "f": 0.88
+    },
+    {
+     "k": "den",
+     "ten": "Đen",
+     "hex": "#16181b",
+     "noc": null,
+     "f": 0.88
+    },
+    {
+     "k": "do",
+     "ten": "Đỏ",
+     "hex": "#b3202c",
+     "noc": null,
+     "f": 0.88
+    }
+   ]
+  },
+  "limo": {
+   "l": 4740,
+   "ds": [
+    {
+     "k": "infinity-blanc",
+     "ten": "Trắng",
+     "hex": "#f2f3f5",
+     "noc": null,
+     "f": 0.996
+    },
+    {
+     "k": "desat-silver",
+     "ten": "Bạc",
+     "hex": "#c4c8cc",
+     "noc": null,
+     "f": 0.953
+    },
+    {
+     "k": "jet-black",
+     "ten": "Đen",
+     "hex": "#16181b",
+     "noc": null,
+     "f": 0.953
+    },
+    {
+     "k": "solar-ruby",
+     "ten": "Đỏ",
+     "hex": "#a81c2b",
+     "noc": null,
+     "f": 0.953
+    }
+   ]
+  },
+  "mpv7": {
+   "l": 4740,
+   "ds": [
+    {
+     "k": "xanh-duong",
+     "ten": "Xanh dương",
+     "hex": "#1f3f6e",
+     "noc": null,
+     "f": 0.855
+    },
+    {
+     "k": "nau",
+     "ten": "Nâu",
+     "hex": "#3f332c",
+     "noc": null,
+     "f": 0.855
+    },
+    {
+     "k": "trang",
+     "ten": "Trắng",
+     "hex": "#f2f3f5",
+     "noc": null,
+     "f": 0.857
+    },
+    {
+     "k": "xam",
+     "ten": "Xám",
+     "hex": "#7b8087",
+     "noc": null,
+     "f": 0.855
+    },
+    {
+     "k": "den",
+     "ten": "Đen",
+     "hex": "#16181b",
+     "noc": null,
+     "f": 0.859
+    },
+    {
+     "k": "do",
+     "ten": "Đỏ",
+     "hex": "#b3202c",
+     "noc": null,
+     "f": 0.855
+    }
+   ]
+  },
+  "vf8": {
+   "l": 4750,
+   "ds": [
+    {
+     "k": "xanh-reu",
+     "ten": "Xanh rêu",
+     "hex": "#173f33",
+     "noc": null,
+     "f": 0.877
+    },
+    {
+     "k": "trang",
+     "ten": "Trắng",
+     "hex": "#f2f3f5",
+     "noc": null,
+     "f": 0.877
+    },
+    {
+     "k": "den",
+     "ten": "Đen",
+     "hex": "#16181b",
+     "noc": null,
+     "f": 0.877
+    },
+    {
+     "k": "do",
+     "ten": "Đỏ",
+     "hex": "#b3202c",
+     "noc": null,
+     "f": 0.877
+    }
+   ]
+  },
+  "vf8moi": {
+   "l": 4701,
+   "ds": [
+    {
+     "k": "do",
+     "ten": "Đỏ",
+     "hex": "#b3202c",
+     "noc": null,
+     "f": 0.914
+    },
+    {
+     "k": "cam",
+     "ten": "Cam",
+     "hex": "#a8481f",
+     "noc": null,
+     "f": 0.914
+    },
+    {
+     "k": "trang",
+     "ten": "Trắng",
+     "hex": "#f2f3f5",
+     "noc": null,
+     "f": 0.914
+    },
+    {
+     "k": "tim",
+     "ten": "Tím",
+     "hex": "#5c2345",
+     "noc": null,
+     "f": 0.914
+    },
+    {
+     "k": "xanh-duong",
+     "ten": "Xanh dương",
+     "hex": "#4ea6d6",
+     "noc": null,
+     "f": 0.914
+    },
+    {
+     "k": "den",
+     "ten": "Đen",
+     "hex": "#16181b",
+     "noc": null,
+     "f": 0.914
+    },
+    {
+     "k": "cam-noc-trang",
+     "ten": "Cam nóc trắng",
+     "hex": "#a8481f",
+     "noc": "#f2f3f5",
+     "f": 0.914
+    },
+    {
+     "k": "cam-noc-den",
+     "ten": "Cam nóc đen",
+     "hex": "#a8481f",
+     "noc": "#16181b",
+     "f": 0.914
+    },
+    {
+     "k": "tim-noc-trang",
+     "ten": "Tím nóc trắng",
+     "hex": "#5c2345",
+     "noc": "#f2f3f5",
+     "f": 0.914
+    },
+    {
+     "k": "xanh-duong-noc-trang",
+     "ten": "Xanh dương nóc trắng",
+     "hex": "#4ea6d6",
+     "noc": "#f2f3f5",
+     "f": 0.914
+    },
+    {
+     "k": "den-noc-trang",
+     "ten": "Đen nóc trắng",
+     "hex": "#16181b",
+     "noc": "#f2f3f5",
+     "f": 0.914
+    },
+    {
+     "k": "do-noc-den",
+     "ten": "Đỏ nóc đen",
+     "hex": "#b3202c",
+     "noc": "#16181b",
+     "f": 0.914
+    }
+   ]
+  },
+  "vf9": {
+   "l": 5118,
+   "ds": [
+    {
+     "k": "zenith-grey",
+     "ten": "Xám",
+     "hex": "#6d7075",
+     "noc": null,
+     "f": 0.898
+    },
+    {
+     "k": "desat-silver",
+     "ten": "Bạc",
+     "hex": "#c4c8cc",
+     "noc": null,
+     "f": 0.898
+    },
+    {
+     "k": "infinity-blanc",
+     "ten": "Trắng",
+     "hex": "#f2f3f5",
+     "noc": null,
+     "f": 0.898
+    },
+    {
+     "k": "urban-mint",
+     "ten": "Xanh mint",
+     "hex": "#6f8a5a",
+     "noc": null,
+     "f": 0.898
+    },
+    {
+     "k": "ivy-green",
+     "ten": "Xanh rêu",
+     "hex": "#1a5a42",
+     "noc": null,
+     "f": 0.889
+    },
+    {
+     "k": "jet-black",
+     "ten": "Đen",
+     "hex": "#16181b",
+     "noc": null,
+     "f": 0.898
+    },
+    {
+     "k": "solar-ruby",
+     "ten": "Đỏ",
+     "hex": "#a81c2b",
+     "noc": null,
+     "f": 0.898
+    }
+   ]
+  },
+  "wild": {
+   "l": 5376,
+   "ds": [
+    {
+     "k": "xam",
+     "ten": "Xám",
+     "hex": "#7b8087",
+     "noc": null,
+     "f": 0.906
+    }
+   ]
+  }
+ },
+ "goi": {
+  "12": {
+   "ten": "Mẫu: cố định 12 tháng",
+   "tenEn": "Sample: 12-month fixed",
+   "r1": 10.4,
+   "n": 12,
+   "r2": 13.5,
+   "nam": 5
+  },
+  "24": {
+   "ten": "Mẫu: cố định 24 tháng",
+   "tenEn": "Sample: 24-month fixed",
+   "r1": 9.7,
+   "n": 24,
+   "r2": 13,
+   "nam": 8
+  }
+ },
+ "cauhinh": {
+  "sdt": "0833091307",
+  "sdtHien": "083-309-1307",
+  "diachi": "1135 Quốc Lộ 1A, Phường Tân Tạo, Quận Bình Tân",
+  "diachiEn": "1135 National Route 1A, Tan Tao Ward, Binh Tan District",
+  "traMin": 15
+ },
+ "bai": [
+  {
+   "slug": "vf3-tra-gop-moi-thang",
+   "loai": "Kinh nghiệm",
+   "loaiEn": "Guide",
+   "ngay": "05/11/2026",
+   "xe": "vf3",
+   "tieu": "Mua VF 3 trả góp, mỗi tháng trả bao nhiêu?",
+   "tieuEn": "Buying a VF 3 on instalments: how much per month?",
+   "tom": "Ví dụ tính trả góp cho VF 3 Eco với mức trả trước 15%.",
+   "tomEn": "An instalment example for the VF 3 Eco with a 15% down payment.",
+   "nguon": "",
+   "nd": "VF 3 có giá từ 285.000.000 đồng cho bản Eco và 296.000.000 đồng cho bản Plus. Dưới đây là ví dụ cho bản Eco, vay 5 năm.\n\nGiá trị xe | 285.000.000\nƯu đãi (3%) | -8.550.000\nTrả trước (15%) | 41.467.500\nSố tiền vay | 234.982.500\n= Tháng đầu trả | 5.952.890\n\n~ Giá tại ngày đăng. Minh họa theo một gói mẫu, lãi suất 10,4%/năm trong 12 tháng đầu. Chưa gồm phí đăng ký.\n\nMỗi ngân hàng có gói vay khác nhau, và tiền trả giảm dần theo dư nợ. Quý khách vui lòng liên hệ để nhận báo giá phù hợp.\n\n[Xem VF 3 và tính trả góp ›](/vf3/)",
+   "ndEn": "The VF 3 starts at 285,000,000 VND for the Eco and 296,000,000 VND for the Plus. Below is an example for the Eco over 5 years.\n\nValue | 285,000,000\nPromotion (3%) | -8,550,000\nDown payment (15%) | 41,467,500\nLoan amount | 234,982,500\n= First month | 5,952,890\n\n~ Price on the publishing date. Illustration using a sample package at 10.4% a year for the first 12 months. Excludes registration fees.\n\nEach bank has different packages, and the amount falls month by month as the balance reduces. Please contact us for a quote that fits your plan.\n\n[View VF 3 and calculate instalments ›](/vf3/)"
+  },
+  {
+   "slug": "vinfast-vuot-moc-100000-xe",
+   "loai": "Tin VinFast",
+   "loaiEn": "VinFast news",
+   "ngay": "11/10/2025",
+   "xe": "vf5",
+   "tieu": "VinFast vượt mốc 100.000 ô tô bán ra sau 3 quý",
+   "tieuEn": "VinFast passes 100,000 cars sold in three quarters",
+   "tom": "Lũy kế đến hết quý III/2025 đạt 103.884 xe, dẫn đầu là VF 3 và VF 5.",
+   "tomEn": "Sales reached 103,884 cars by the end of Q3 2025, led by the VF 3 and VF 5.",
+   "nguon": "https://vinfastauto.com/vn_vi/vinfast-lap-ky-luc-viet-nam-can-moc-100000-o-to-ban-ra-trong-3-quy-dau-nam",
+   "nd": "Theo công bố của VinFast ngày 11/10/2025, hãng đã bán 103.884 ô tô điện trong 9 tháng đầu năm 2025, riêng tháng 9 là 13.914 xe.\n\nVF 3 | 31.386\nVF 5 | 30.956\nVF 6 | 14.425\nVF 7 | 5.877\n\n~ Số xe bán ra trong 9 tháng đầu năm 2025.\n\nVới khách đang chọn xe đầu tiên, số liệu này cho thấy VF 3 và VF 5 là hai dòng được chọn nhiều nhất. Quý khách có thể đến SAMCO Bình Tân để lái thử cả hai xe và so sánh trực tiếp.",
+   "ndEn": "According to VinFast on 11/10/2025, the company sold 103,884 electric cars in the first nine months of 2025, including 13,914 in September.\n\nVF 3 | 31,386\nVF 5 | 30,956\nVF 6 | 14,425\nVF 7 | 5,877\n\n~ Cars sold in the first nine months of 2025.\n\nFor first-time buyers, these figures show the VF 3 and VF 5 are the most chosen models. You are welcome to test drive both at SAMCO Binh Tan and compare them yourself."
+  }
+ ]
+}

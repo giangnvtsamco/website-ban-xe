@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESC}}">
+<meta name="robots" content="{{ROBOTS}}">
+<link rel="canonical" href="{{CANON}}">
+<meta property="og:type" content="website"><meta property="og:site_name" content="VinFast SAMCO Bình Tân"><meta property="og:locale" content="vi_VN">
+<meta property="og:title" content="{{TITLE}}"><meta property="og:description" content="{{DESC}}"><meta property="og:url" content="{{CANON}}"><meta property="og:image" content="{{OG}}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<meta name="theme-color" content="#ffffff">
+<script>try{var c=localStorage.getItem('samco-che');if(c!=='light'&&c!=='dark')c=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',c)}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/app.css?v={{V}}">
+{{JSONLD}}
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <nav id="nav"></nav>
+  <div class="tools">
+  <div class="che" id="che">
+   <button type="button" data-che="light"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.500 1.500M6.500 17.500L5 19"/></svg></button>
+   <button type="button" data-che="dark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M20 14.500A8.500 8.500 0 0 1 9.500 4 8.500 8.500 0 1 0 20 14.500z"/></svg></button>
+   <button type="button" data-che="auto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.500"/><path d="M12 3.500a8.500 8.500 0 0 1 0 17z" fill="currentColor"/></svg></button>
+  </div>
+  <button class="lang" id="bl" aria-label="Đổi ngôn ngữ">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>
+    <span id="blt">EN</span>
+  </button>
+  </div>
+</div></header>
+<main id="app">{{NOIDUNG}}</main>
+<div class="ghim"><a class="g" id="gG"></a><a class="z" id="gZ" target="_blank" rel="noopener"></a></div>
+<div class="toast" id="toast"></div>
+
+<script src="/assets/cauhinh.js?v={{V}}"></script>
+<script src="/assets/du-lieu.js?v={{V}}"></script>
+<script src="/assets/app.js?v={{V}}"></script>
+</body>
+</html>
