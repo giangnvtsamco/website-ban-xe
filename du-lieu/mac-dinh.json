@@ -411,56 +411,56 @@
      "ten": "Xanh mint",
      "hex": "#7d9a6e",
      "noc": null,
-     "f": 0.917
+     "f": 0.627
     },
     {
      "k": "be",
      "ten": "Be",
      "hex": "#d8c19a",
      "noc": null,
-     "f": 0.917
+     "f": 0.627
     },
     {
      "k": "hong",
      "ten": "Hồng",
      "hex": "#e3a0b8",
      "noc": null,
-     "f": 0.917
+     "f": 0.627
     },
     {
      "k": "trang",
      "ten": "Trắng",
      "hex": "#f2f3f5",
      "noc": null,
-     "f": 0.917
+     "f": 0.627
     },
     {
      "k": "vang",
      "ten": "Vàng",
      "hex": "#f0d050",
      "noc": null,
-     "f": 0.917
+     "f": 0.627
     },
     {
      "k": "xanh-duong",
      "ten": "Xanh dương",
      "hex": "#4ea6d6",
      "noc": null,
-     "f": 0.917
+     "f": 0.627
     },
     {
      "k": "xam",
      "ten": "Xám",
      "hex": "#7b8087",
      "noc": null,
-     "f": 0.917
+     "f": 0.627
     },
     {
      "k": "do",
      "ten": "Đỏ",
      "hex": "#b3202c",
      "noc": null,
-     "f": 0.917
+     "f": 0.627
     }
    ]
   },
@@ -472,84 +472,84 @@
      "ten": "Xanh mint",
      "hex": "#86c07e",
      "noc": null,
-     "f": 0.766
+     "f": 0.715
     },
     {
      "k": "hong",
      "ten": "Hồng",
      "hex": "#e3a0b8",
      "noc": null,
-     "f": 0.766
+     "f": 0.715
     },
     {
      "k": "trang",
      "ten": "Trắng",
      "hex": "#f2f3f5",
      "noc": null,
-     "f": 0.996
+     "f": 0.708
     },
     {
      "k": "den",
      "ten": "Đen",
      "hex": "#16181b",
      "noc": null,
-     "f": 0.865
+     "f": 0.768
     },
     {
      "k": "do",
      "ten": "Đỏ",
      "hex": "#b3202c",
      "noc": null,
-     "f": 0.864
+     "f": 0.768
     },
     {
      "k": "trang-noc-den",
      "ten": "Trắng nóc đen",
      "hex": "#f2f3f5",
      "noc": "#16181b",
-     "f": 0.997
+     "f": 0.731
     },
     {
      "k": "tim-noc-trang",
      "ten": "Tím nóc trắng",
      "hex": "#b264cf",
      "noc": "#f2f3f5",
-     "f": 0.766
+     "f": 0.715
     },
     {
      "k": "tim-noc-xanh-duong",
      "ten": "Tím nóc xanh dương",
      "hex": "#b264cf",
      "noc": "#4ea6d6",
-     "f": 0.766
+     "f": 0.715
     },
     {
      "k": "xanh-mint-noc-trang",
      "ten": "Xanh mint nóc trắng",
      "hex": "#86c07e",
      "noc": "#f2f3f5",
-     "f": 0.766
+     "f": 0.715
     },
     {
      "k": "xanh-mint-noc-vang",
      "ten": "Xanh mint nóc vàng",
      "hex": "#86c07e",
      "noc": "#f0d050",
-     "f": 0.766
+     "f": 0.715
     },
     {
      "k": "den-noc-vang",
      "ten": "Đen nóc vàng",
      "hex": "#16181b",
      "noc": "#f0d050",
-     "f": 0.864
+     "f": 0.768
     },
     {
      "k": "do-noc-trang",
      "ten": "Đỏ nóc trắng",
      "hex": "#b3202c",
      "noc": "#f2f3f5",
-     "f": 0.786
+     "f": 0.771
     }
    ]
   },
@@ -561,49 +561,56 @@
      "ten": "Vàng",
      "hex": "#f0d050",
      "noc": null,
-     "f": 0.687
+     "f": 0.666,
+     "v": 36
     },
     {
      "k": "hong",
      "ten": "Hồng",
      "hex": "#e3a0b8",
      "noc": null,
-     "f": 0.695
+     "f": 0.666,
+     "v": 36
     },
     {
      "k": "trang",
      "ten": "Trắng",
      "hex": "#f2f3f5",
      "noc": null,
-     "f": 0.687
+     "f": 0.666,
+     "v": 36
     },
     {
      "k": "xanh-duong",
      "ten": "Xanh dương",
      "hex": "#4ea6d6",
      "noc": null,
-     "f": 0.665
+     "f": 0.666,
+     "v": 36
     },
     {
      "k": "xanh-urban",
      "ten": "Xanh mint",
      "hex": "#8b9a7e",
      "noc": null,
-     "f": 0.686
+     "f": 0.666,
+     "v": 36
     },
     {
      "k": "xam",
      "ten": "Xám",
      "hex": "#7b8087",
      "noc": null,
-     "f": 0.677
+     "f": 0.666,
+     "v": 36
     },
     {
      "k": "do",
      "ten": "Đỏ",
      "hex": "#b3202c",
      "noc": null,
-     "f": 0.665
+     "f": 0.666,
+     "v": 36
     }
    ]
   },
@@ -615,28 +622,28 @@
      "ten": "Xanh mint",
      "hex": "#7d9a6e",
      "noc": null,
-     "f": 0.79
+     "f": 0.788
     },
     {
      "k": "trang",
      "ten": "Trắng",
      "hex": "#f2f3f5",
      "noc": null,
-     "f": 0.79
+     "f": 0.788
     },
     {
      "k": "vang",
      "ten": "Vàng",
      "hex": "#f0d050",
      "noc": null,
-     "f": 0.79
+     "f": 0.788
     },
     {
      "k": "do",
      "ten": "Đỏ",
      "hex": "#b8432f",
      "noc": null,
-     "f": 0.79
+     "f": 0.788
     }
    ]
   },
@@ -648,42 +655,42 @@
      "ten": "Xám",
      "hex": "#7b8087",
      "noc": null,
-     "f": 0.847
+     "f": 0.919
     },
     {
      "k": "trang",
      "ten": "Trắng",
      "hex": "#f2f3f5",
      "noc": null,
-     "f": 0.847
+     "f": 0.919
     },
     {
      "k": "vang",
      "ten": "Vàng",
      "hex": "#f0d050",
      "noc": null,
-     "f": 0.847
+     "f": 0.919
     },
     {
      "k": "xanh-duong",
      "ten": "Xanh dương",
      "hex": "#4ea6d6",
      "noc": null,
-     "f": 0.847
+     "f": 0.919
     },
     {
      "k": "xanh-urban",
      "ten": "Xanh mint",
      "hex": "#8b9a7e",
      "noc": null,
-     "f": 0.847
+     "f": 0.919
     },
     {
      "k": "do",
      "ten": "Đỏ",
      "hex": "#b3202c",
      "noc": null,
-     "f": 0.847
+     "f": 0.918
     }
    ]
   },
@@ -695,35 +702,37 @@
      "ten": "Đỏ",
      "hex": "#b3202c",
      "noc": null,
-     "f": 0.978
+     "f": 0.885,
+     "v": 36
     },
     {
      "k": "trang",
      "ten": "Trắng",
      "hex": "#f2f3f5",
      "noc": null,
-     "f": 0.973
+     "f": 0.885,
+     "v": 36
     },
     {
      "k": "xanh-mint",
      "ten": "Xanh mint",
      "hex": "#7d9a6e",
      "noc": null,
-     "f": 0.975
+     "f": 0.885
     },
     {
      "k": "bac",
      "ten": "Xám",
      "hex": "#5d6773",
      "noc": null,
-     "f": 0.978
+     "f": 0.885
     },
     {
      "k": "den",
      "ten": "Đen",
      "hex": "#16181b",
      "noc": null,
-     "f": 0.981
+     "f": 0.885
     }
    ]
   },
@@ -735,35 +744,38 @@
      "ten": "Xanh mint",
      "hex": "#7d9a6e",
      "noc": null,
-     "f": 0.879
+     "f": 0.848
     },
     {
      "k": "trang",
      "ten": "Trắng",
      "hex": "#f2f3f5",
      "noc": null,
-     "f": 0.88
+     "f": 0.847,
+     "v": 36
     },
     {
      "k": "xam",
      "ten": "Xám",
      "hex": "#7b8087",
      "noc": null,
-     "f": 0.88
+     "f": 0.847
     },
     {
      "k": "den",
      "ten": "Đen",
      "hex": "#16181b",
      "noc": null,
-     "f": 0.88
+     "f": 0.847,
+     "v": 36
     },
     {
      "k": "do",
      "ten": "Đỏ",
      "hex": "#b3202c",
      "noc": null,
-     "f": 0.88
+     "f": 0.847,
+     "v": 36
     }
    ]
   },
@@ -775,28 +787,28 @@
      "ten": "Trắng",
      "hex": "#f2f3f5",
      "noc": null,
-     "f": 0.996
+     "f": 0.903
     },
     {
      "k": "desat-silver",
      "ten": "Bạc",
      "hex": "#c4c8cc",
      "noc": null,
-     "f": 0.953
+     "f": 0.902
     },
     {
      "k": "jet-black",
      "ten": "Đen",
      "hex": "#16181b",
      "noc": null,
-     "f": 0.953
+     "f": 0.902
     },
     {
      "k": "solar-ruby",
      "ten": "Đỏ",
      "hex": "#a81c2b",
      "noc": null,
-     "f": 0.953
+     "f": 0.902
     }
    ]
   },
@@ -808,42 +820,42 @@
      "ten": "Xanh dương",
      "hex": "#1f3f6e",
      "noc": null,
-     "f": 0.855
+     "f": 0.881
     },
     {
      "k": "nau",
      "ten": "Nâu",
      "hex": "#3f332c",
      "noc": null,
-     "f": 0.855
+     "f": 0.881
     },
     {
      "k": "trang",
      "ten": "Trắng",
      "hex": "#f2f3f5",
      "noc": null,
-     "f": 0.857
+     "f": 0.882
     },
     {
      "k": "xam",
      "ten": "Xám",
      "hex": "#7b8087",
      "noc": null,
-     "f": 0.855
+     "f": 0.881
     },
     {
      "k": "den",
      "ten": "Đen",
      "hex": "#16181b",
      "noc": null,
-     "f": 0.859
+     "f": 0.885
     },
     {
      "k": "do",
      "ten": "Đỏ",
      "hex": "#b3202c",
      "noc": null,
-     "f": 0.855
+     "f": 0.881
     }
    ]
   },
@@ -855,28 +867,31 @@
      "ten": "Xanh rêu",
      "hex": "#173f33",
      "noc": null,
-     "f": 0.877
+     "f": 0.846
     },
     {
      "k": "trang",
      "ten": "Trắng",
      "hex": "#f2f3f5",
      "noc": null,
-     "f": 0.877
+     "f": 0.846,
+     "v": 36
     },
     {
      "k": "den",
      "ten": "Đen",
      "hex": "#16181b",
      "noc": null,
-     "f": 0.877
+     "f": 0.846,
+     "v": 36
     },
     {
      "k": "do",
      "ten": "Đỏ",
      "hex": "#b3202c",
      "noc": null,
-     "f": 0.877
+     "f": 0.846,
+     "v": 36
     }
    ]
   },
@@ -888,84 +903,84 @@
      "ten": "Đỏ",
      "hex": "#b3202c",
      "noc": null,
-     "f": 0.914
+     "f": 0.893
     },
     {
      "k": "cam",
      "ten": "Cam",
      "hex": "#a8481f",
      "noc": null,
-     "f": 0.914
+     "f": 0.893
     },
     {
      "k": "trang",
      "ten": "Trắng",
      "hex": "#f2f3f5",
      "noc": null,
-     "f": 0.914
+     "f": 0.893
     },
     {
      "k": "tim",
      "ten": "Tím",
      "hex": "#5c2345",
      "noc": null,
-     "f": 0.914
+     "f": 0.893
     },
     {
      "k": "xanh-duong",
      "ten": "Xanh dương",
      "hex": "#4ea6d6",
      "noc": null,
-     "f": 0.914
+     "f": 0.893
     },
     {
      "k": "den",
      "ten": "Đen",
      "hex": "#16181b",
      "noc": null,
-     "f": 0.914
+     "f": 0.893
     },
     {
      "k": "cam-noc-trang",
      "ten": "Cam nóc trắng",
      "hex": "#a8481f",
      "noc": "#f2f3f5",
-     "f": 0.914
+     "f": 0.893
     },
     {
      "k": "cam-noc-den",
      "ten": "Cam nóc đen",
      "hex": "#a8481f",
      "noc": "#16181b",
-     "f": 0.914
+     "f": 0.893
     },
     {
      "k": "tim-noc-trang",
      "ten": "Tím nóc trắng",
      "hex": "#5c2345",
      "noc": "#f2f3f5",
-     "f": 0.914
+     "f": 0.898
     },
     {
      "k": "xanh-duong-noc-trang",
      "ten": "Xanh dương nóc trắng",
      "hex": "#4ea6d6",
      "noc": "#f2f3f5",
-     "f": 0.914
+     "f": 0.893
     },
     {
      "k": "den-noc-trang",
      "ten": "Đen nóc trắng",
      "hex": "#16181b",
      "noc": "#f2f3f5",
-     "f": 0.914
+     "f": 0.893
     },
     {
      "k": "do-noc-den",
      "ten": "Đỏ nóc đen",
      "hex": "#b3202c",
      "noc": "#16181b",
-     "f": 0.914
+     "f": 0.893
     }
    ]
   },
@@ -977,49 +992,53 @@
      "ten": "Xám",
      "hex": "#6d7075",
      "noc": null,
-     "f": 0.898
+     "f": 0.868
     },
     {
      "k": "desat-silver",
      "ten": "Bạc",
      "hex": "#c4c8cc",
      "noc": null,
-     "f": 0.898
+     "f": 0.868,
+     "v": 36
     },
     {
      "k": "infinity-blanc",
      "ten": "Trắng",
      "hex": "#f2f3f5",
      "noc": null,
-     "f": 0.898
+     "f": 0.868,
+     "v": 36
     },
     {
      "k": "urban-mint",
      "ten": "Xanh mint",
      "hex": "#6f8a5a",
      "noc": null,
-     "f": 0.898
+     "f": 0.868
     },
     {
      "k": "ivy-green",
      "ten": "Xanh rêu",
      "hex": "#1a5a42",
      "noc": null,
-     "f": 0.889
+     "f": 0.873
     },
     {
      "k": "jet-black",
      "ten": "Đen",
      "hex": "#16181b",
      "noc": null,
-     "f": 0.898
+     "f": 0.868,
+     "v": 36
     },
     {
      "k": "solar-ruby",
      "ten": "Đỏ",
      "hex": "#a81c2b",
      "noc": null,
-     "f": 0.898
+     "f": 0.868,
+     "v": 36
     }
    ]
   },
@@ -1031,7 +1050,7 @@
      "ten": "Xám",
      "hex": "#7b8087",
      "noc": null,
-     "f": 0.906
+     "f": 0.908
     }
    ]
   }

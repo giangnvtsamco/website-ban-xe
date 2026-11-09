@@ -59,7 +59,8 @@ def gop(md, d):
     kq['mau'] = dict(md['mau'])
     for k, v in (d.get('mau') or {}).items():
         if v.get('ds') and k in kq['mau']:
-            kq['mau'][k] = {'l': v.get('l') or kq['mau'][k]['l'], 'ds': v['ds']}
+            goc = {m['k']: m for m in kq['mau'][k]['ds']}
+            kq['mau'][k] = {'l': v.get('l') or kq['mau'][k]['l'], 'ds': [{**m, 'f': goc[m['k']]['f'], **({'v': goc[m['k']]['v']} if goc[m['k']].get('v') else {})} if m['k'] in goc else m for m in v['ds']]}
     if d.get('goi'):
         kq['goi'] = d['goi']
     if d.get('bai'):

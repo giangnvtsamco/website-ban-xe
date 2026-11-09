@@ -17,7 +17,8 @@ function gop(d){
   moi.sort((a,b)=>(a.thuTu||99)-(b.thuTu||99));
   if(moi.length) XE=moi;
   const mau={...MD.mau};
-  Object.entries(d.mau||{}).forEach(([k,v])=>{if(v.ds&&v.ds.length&&mau[k])mau[k]={l:v.l||mau[k].l,ds:v.ds};});
+  /* Tỉ lệ thân xe đo từ chính tệp ảnh, nên luôn lấy theo dữ liệu đi kèm web */
+  Object.entries(d.mau||{}).forEach(([k,v])=>{if(v.ds&&v.ds.length&&mau[k])mau[k]={l:v.l||mau[k].l,ds:v.ds.map(m=>{const g=mau[k].ds.find(o=>o.k===m.k);return g?{...m,f:g.f,v:g.v}:m;})};});
   MAU=mau;
   if(d.goi&&Object.keys(d.goi).length) GOI=d.goi;
   if(!GOI[CH.g]) CH.g=Object.keys(GOI)[0];
@@ -34,11 +35,11 @@ async function call(fn,...args){
 }
 const TX={
  vi:{banDo:'Bản đồ',bt:'BÌNH TÂN',giamt:'Ưu đãi',gxe2:'Giá xe',nguon:'Nguồn',cheS:'Sáng',cheT:'Tối',cheA:'Tự động',tieu:'SAMCO Bình Tân',tin:'Tin tức',mau:'Màu xe',laiThu:'Lái thử',tuvan:'Tư vấn',nhucau:'Nhu cầu',ngay:'Ngày mong muốn',tatca:'Tất cả xe',tg:'Tính trả góp',gxe:'Giá sau ưu đãi',tratruoc:'Trả trước',vay2:'Số tiền vay',nam:'Thời hạn vay',namd:'năm',bandau:'Cần chuẩn bị ban đầu',laist:'Lãi suất năm',thang1:'Tháng đầu trả',tuThang:'Từ tháng',tongLai:'Tổng lãi',tgn:'Minh họa theo một gói mẫu, ngân hàng có nhiều lựa chọn khác. Gốc trả đều, lãi tính trên dư nợ giảm dần. Lãi suất sau',tgn2:'tháng là tạm tính, điều chỉnh theo thị trường.',xemLich:'Xem bảng trả từng tháng',thangC:'Tháng',gocC:'Gốc',laiC:'Lãi',traC:'Phải trả',kkd:'Không kinh doanh',kd:'Kinh doanh',coBh:'Mua bảo hiểm thân vỏ',khongMua:'Không mua',toiThieu:'mức tối thiểu',tndsT:'Bảo hiểm dân sự',lk:'Link riêng',cp:'Sao chép link',dacp:'Đã sao chép',kcp:'Chưa sao chép được',goi:'Gọi ngay',home:'Trang chủ',xe:'Ô tô',lh:'Liên hệ',mua:'Mua ngay',tit:'Bảng giá',thue:'Thuế trước bạ',gtri:'Giá trị xe',bh:'Bảo hiểm thân vỏ',phi:'Phí đăng ký, biển số',tong:'Tổng tạm tính',lienhe:'Liên hệ',tu:'Từ',
-  nho:'Tạm tính. Ưu đãi theo điều kiện chương trình. Chưa gồm phí đăng ký và bảo hiểm thân vỏ.',sacc:'Ưu đãi sạc theo chính sách VinFast',vay:'Hỗ trợ vay tối đa, trả góp linh hoạt',ntcn:'Hỗ trợ đăng ký các nền tảng công nghệ: Be, Grab',qua:'Nhận ngay nhiều quà tặng giá trị khi mua xe',soLuong:'Mua từ 50 xe, vui lòng liên hệ',hang:'Tải trên 600 kg, thùng hàng 2.600 lít',
+  nho:'Tạm tính. Ưu đãi theo điều kiện chương trình. Chưa gồm phí đăng ký và bảo hiểm thân vỏ.',sacc:'Ưu đãi sạc theo chính sách VinFast',vay:'Hỗ trợ vay tối đa, trả góp linh hoạt',ntcn:'Hỗ trợ đăng ký các nền tảng công nghệ: Be, Grab',xoay:'Xoay 360°',ngang:'Xem bên hông',keo:'Kéo để xoay',qua:'Nhận ngay nhiều quà tặng giá trị khi mua xe',soLuong:'Mua từ 50 xe, vui lòng liên hệ',hang:'Tải trên 600 kg, thùng hàng 2.600 lít',
   moi:'Liên hệ với chúng tôi hôm nay để đến trải nghiệm xe VinFast.',ttkh:'Thông tin khách hàng',ttp:'Vui lòng để lại số điện thoại, chúng tôi sẽ liên hệ Quý khách.',ten:'Tên khách hàng',sdt:'Số điện thoại',dong:'Dòng xe quan tâm',gui:'GỬI',
   e1:'Vui lòng nhập tên.',e2:'Vui lòng nhập số điện thoại 10 chữ số.',e3:'Vui lòng kiểm tra email.',ok:'Cảm ơn Quý khách.',okn:'Chúng tôi sẽ liên hệ sớm.',e4:'Chưa gửi được. Vui lòng gọi ',dangGui:'ĐANG GỬI',dongy:'Khi gửi, Quý khách đồng ý để SAMCO Bình Tân liên hệ tư vấn.',k1:'Không tìm thấy trang',moTa:'Đại lý VinFast SAMCO Bình Tân: bảng giá, tính trả góp, đăng ký lái thử ô tô điện VinFast tại TP.HCM.',xemxe:'Xem xe',tp:'TP.HCM, Việt Nam',tam:'Ảnh tạm'},
  en:{banDo:'Map',bt:'BINH TAN',giamt:'Promotion',gxe2:'Car price',nguon:'Source',cheS:'Light',cheT:'Dark',cheA:'Auto',tieu:'SAMCO Binh Tan',tin:'News',mau:'Colour',laiThu:'Test drive',tuvan:'Consultation',nhucau:'Request',ngay:'Preferred date',tatca:'All cars',tg:'Instalment calculator',gxe:'Price after promotion',tratruoc:'Down payment',vay2:'Loan amount',nam:'Loan term',namd:'years',bandau:'Upfront cost',laist:'Annual interest',thang1:'First month',tuThang:'From month',tongLai:'Total interest',tgn:'Illustration using a sample package; banks offer other options. Equal principal, interest on the reducing balance. The rate after',tgn2:'months is an estimate and follows the market.',xemLich:'View monthly schedule',thangC:'Month',gocC:'Principal',laiC:'Interest',traC:'Payment',kkd:'Private use',kd:'Commercial use',coBh:'Include body insurance',khongMua:'Not included',toiThieu:'minimum',tndsT:'Civil liability insurance',lk:'Direct link',cp:'Copy link',dacp:'Copied',kcp:'Could not copy',goi:'Call now',home:'Home',xe:'Cars',lh:'Contact',mua:'Buy now',tit:'Price list',thue:'Registration tax',gtri:'Value',bh:'Body insurance',phi:'Registration & plate fee',tong:'Estimated total',lienhe:'Contact us',tu:'From',
-  nho:'Estimate in VND. Promotion subject to conditions. Excludes registration fees and body insurance.',sacc:'Charging offer per VinFast policy',vay:'Loan support, flexible instalments',ntcn:'Registration support for Be, Grab',qua:'Valuable gifts with your purchase',soLuong:'Buying 50 cars or more? Please contact us',hang:'Payload over 600 kg, 2,600 L cargo space',
+  nho:'Estimate in VND. Promotion subject to conditions. Excludes registration fees and body insurance.',sacc:'Charging offer per VinFast policy',vay:'Loan support, flexible instalments',ntcn:'Registration support for Be, Grab',xoay:'Rotate 360°',ngang:'Side view',keo:'Drag to rotate',qua:'Valuable gifts with your purchase',soLuong:'Buying 50 cars or more? Please contact us',hang:'Payload over 600 kg, 2,600 L cargo space',
   moi:'Contact us today to experience VinFast.',ttkh:'Customer information',ttp:'Please leave your phone number and we will contact you.',ten:'Full name',sdt:'Phone number',dong:'Model of interest',gui:'SEND',
   e1:'Please enter your name.',e2:'Please enter a 10-digit phone number.',e3:'Please check your email.',ok:'Thank you.',okn:'We will contact you soon.',e4:'Could not send. Please call ',dangGui:'SENDING',dongy:'By sending, you agree that SAMCO Binh Tan may contact you.',k1:'Page not found',moTa:'VinFast SAMCO Binh Tan dealership: prices, instalment calculator and test drive booking in Ho Chi Minh City.',xemxe:'View cars',tp:'Ho Chi Minh City, Vietnam',tam:'Temp image'}
 };
@@ -75,10 +76,14 @@ function LICH(goc,thang,g){
 }
 
 const ANH=(bo,m)=>`/assets/xe/${bo}/${m.k}.webp`;
+const ANH360=(bo,m,f)=>`/assets/360/${bo}/${m.k}/${f}.webp`;
+const CO360=x=>{const m=MAU[BO(x,tg.i)].ds[tg.m];return !!(m&&m.v);};
 function anhXe(x,i=0,mi=0,chinh=false){
   const bo=BO(x,i),m=MAU[bo].ds[mi];
+  if(chinh&&tg.x&&m.v) return `<div class="carbox xoay" id="xoay"><img id="anhChinh" class="khung" src="${ANH360(bo,m,1)}" alt="VinFast ${ESC(x.ten)} ${ESC(MT(m.ten))} 360" draggable="false"><div class="tai" id="tai"></div><span class="goiy">${T('keo')}</span></div>`;
   return `<div class="carbox"><img class="car" ${chinh?'id="anhChinh"':''} src="${ANH(bo,m)}" ${chinh?'':'loading="lazy"'} style="width:${RONG(bo,m)}%" alt="VinFast ${ESC(x.ten)} ${ESC(MT(m.ten))}"></div>`;
 }
+const nut360=x=>CO360(x)?`<button type="button" id="b360" class="nut360 ${tg.x?'on':''}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 12a9 4 0 0 0 16 2.5M21 12a9 4 0 0 0-16-2.5"/><path d="M17 12.5l2 2-2.5 1.5M7 11.5l-2-2 2.5-1.5"/></svg>${tg.x?T('ngang'):T('xoay')}</button>`:'';
 function hangMau(x){
   const bo=BO(x,tg.i),ds=MAU[bo].ds;
   if(ds.length<2) return `<p class="mauTen">${ESC(MT(ds[0].ten))}</p>`;
@@ -165,7 +170,7 @@ const V={
   return `<div class="wrap">
     <div class="ke"><a href="#/o-to/${tr.id}">‹ ${ESC(tr.ten)}</a><a href="#/o-to">${T('tatca')}</a><a href="#/o-to/${sau.id}">${ESC(sau.ten)} ›</a></div>
     <section class="x1" id="xe-${x.id}">
-      <div class="trai">${anhXe(x,tg.i,tg.m,true)}<div id="mauBox">${hangMau(x)}</div><span class="ten">${ESC(x.ten)}</span><div class="nut">${pillMua(x)}${pillLai(x)}</div></div>
+      <div class="trai">${anhXe(x,tg.i,tg.m,true)}<div id="mauBox">${hangMau(x)}</div><div id="b360Box">${nut360(x)}</div><span class="ten">${ESC(x.ten)}</span><div class="nut">${pillMua(x)}${pillLai(x)}</div></div>
       <div><h3>${T('tit')}</h3>
         ${x.pb.length>1?`<div class="pbs" id="pbs">${x.pb.map((p,i)=>`<button type="button" data-pb="${i}" class="${i===tg.i?'on':''}">${ESC(TPB(p))}</button>`).join('')}</div>`:''}
         <div id="bangBox">${bang(x,tg.i)}</div><div id="diemBox">${diem(x,tg.i)}</div><div class="ico">${nutGoi()}${nutZalo()}</div></div>
@@ -261,6 +266,7 @@ function ve(){
   const gG=document.getElementById('gG'),gZ=document.getElementById('gZ');
   gG.href='tel:'+SDT;gG.textContent=T('goi');gZ.href='https://zalo.me/'+SDT;gZ.textContent='Zalo';
   theoDoi();
+  if(tg.x&&document.getElementById('xoay')) moXoay();
   const fm=p[0]==='lien-he'&&p[1]&&document.getElementById('fm');
   if(fm) fm.scrollIntoView(); else scrollTo(0,0);
 }
@@ -294,7 +300,31 @@ function rung(c){c.classList.remove('rung');void c.getBoundingClientRect();c.cla
 document.addEventListener('pointerover',e=>{const c=e.target.closest&&e.target.closest('.car');if(c&&e.pointerType==='mouse'&&!c.classList.contains('rung'))rung(c);});
 document.addEventListener('pointerdown',e=>{const c=e.target.closest&&e.target.closest('.car');if(c)rung(c);});
 document.addEventListener('animationend',e=>{if(e.animationName==='rung')e.target.classList.remove('rung');});
+/* Xoay 360: tải 36 ảnh, kéo ngang để xoay, tự quay một vòng khi mở */
+let XV=null;
+function moXoay(){
+  const x=xeHienTai(),box=document.getElementById('xoay');if(!x||!box)return;
+  const bo=BO(x,tg.i),m=MAU[bo].ds[tg.m],n=m.v,img=document.getElementById('anhChinh'),tai=document.getElementById('tai'),ds=[];
+  if(XV)XV.huy();
+  let f=0,xong=0,cham=false,hen,x0=null,f0=0;
+  const hien=k=>{f=((k%n)+n)%n;img.src=ds[f].src;};
+  const quay=()=>{let d=0;const b=()=>{if(cham||d>=n)return;hien(f+1);d++;hen=setTimeout(b,60);};b();};
+  for(let i=1;i<=n;i++){const a=new Image();a.onload=a.onerror=()=>{xong++;tai.style.width=(xong/n*100)+'%';if(xong===n){box.classList.add('san');quay();}};a.src=ANH360(bo,m,i);ds.push(a);}
+  box.onpointerdown=e=>{cham=true;clearTimeout(hen);x0=e.clientX;f0=f;box.classList.add('dang','da');try{box.setPointerCapture(e.pointerId);}catch(er){}};
+  box.onpointermove=e=>{if(x0===null)return;hien(f0-Math.round((e.clientX-x0)/(box.clientWidth/n*1.3)));};
+  box.onpointerup=box.onpointercancel=()=>{x0=null;box.classList.remove('dang');};
+  XV={huy(){cham=true;clearTimeout(hen);}};
+}
+function veAnh(x){
+  if(XV){XV.huy();XV=null;}
+  if(tg.x&&!CO360(x)) tg.x=false;
+  const c=document.querySelector('.trai .carbox');c.outerHTML=anhXe(x,tg.i,tg.m,true);
+  document.getElementById('b360Box').innerHTML=nut360(x);
+  if(tg.x) moXoay(); else {const a=document.getElementById('anhChinh');a.classList.add('on');rung(a);}
+}
 function doiAnh(x){
+  if(tg.x||!document.getElementById('anhChinh').classList.contains('car')){veAnh(x);return;}
+  document.getElementById('b360Box').innerHTML=nut360(x);
   const bo=BO(x,tg.i),m=MAU[bo].ds[tg.m],a=document.getElementById('anhChinh');
   a.src=ANH(bo,m);a.style.width=RONG(bo,m)+'%';a.alt='VinFast '+x.ten+' '+MT(m.ten);rung(a);
 }
@@ -313,9 +343,10 @@ document.addEventListener('click',async e=>{
     document.getElementById('diemBox').innerHTML=diem(x,tg.i);
     document.getElementById('tgBox').innerHTML=bangTraGop(x);
     document.querySelectorAll('[data-pb]').forEach(b=>b.classList.toggle('on',b===pb));
-    tg.m=0;doiAnh(x);document.getElementById('mauBox').innerHTML=hangMau(x);
+    tg.m=0;tg.x=false;doiAnh(x);document.getElementById('mauBox').innerHTML=hangMau(x);
     return;
   }
+  if(e.target.closest&&e.target.closest('#b360')){tg.x=!tg.x;veAnh(xeHienTai());return;}
   const bg=e.target.closest&&e.target.closest('[data-goi]');
   if(bg){
     CH.g=bg.dataset.goi;tg.nam=GOI[CH.g].nam;

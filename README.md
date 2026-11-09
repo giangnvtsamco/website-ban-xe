@@ -25,3 +25,4 @@ Cách viết nội dung bài: cách một dòng trống để sang đoạn mới
 
 ## Phiên bản
 - v1.0 (05/11/2026): bản đầu tiên, 12 xe, tính trả góp, đăng ký tư vấn và lái thử, tin tức, song ngữ, 3 chế độ sáng tối.
+- v1.1 (09/11/2026): sửa tỉ lệ ảnh xe theo chiều dài thật, thêm xoay 360° cho VF 3 và một số màu VF 6, VF 7, VF 8 Plus, VF 9, gắn link Apps Script.

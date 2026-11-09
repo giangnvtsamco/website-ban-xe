@@ -202,3 +202,16 @@ body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
 .kt{text-align:center;padding:60px 16px}
 .kt h1{font-family:var(--anton);font-weight:400;text-transform:uppercase;font-size:28px;margin:0 0 16px}
 .seo{max-width:640px;margin:0 auto;padding:24px 16px}
+/* Xoay 360 */
+#b360Box{text-align:center}
+.nut360{display:inline-flex;align-items:center;gap:6px;margin-top:12px;min-height:38px;padding:0 16px;border-radius:99px;border:1px solid var(--line);background:transparent;color:var(--ink);font:700 13px var(--body);cursor:pointer}
+.nut360 svg{width:18px;height:18px}
+.nut360.on{background:var(--pill);color:var(--pill-ink);border-color:var(--pill)}
+.xoay{aspect-ratio:16/9;align-items:center;cursor:grab;touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.x1 .xoay{max-width:560px}
+.xoay.dang{cursor:grabbing}
+.khung{display:block;width:100%;height:auto;pointer-events:none;-webkit-user-drag:none}
+.tai{position:absolute;left:0;bottom:0;height:3px;width:0;background:var(--ink);border-radius:2px;transition:width .2s}
+.xoay.san .tai{opacity:0;transition:opacity .5s}
+.goiy{position:absolute;left:0;right:0;bottom:4px;text-align:center;font-size:12px;color:var(--muted);pointer-events:none;transition:opacity .3s}
+.xoay.da .goiy{opacity:0}
